@@ -1,0 +1,15 @@
+1.本專題研究所使用的軟體: App Inventor 2主要是用來撰寫藍牙程式，讓藍牙接收到訊息後，可以回傳至Arduino；
+                         另一個是Arduino Software，他主要是撰寫Arduino程式，使UNO板可以接收到藍牙訊息，
+                         並執行動作。
+
+2.App Inventor 2的操作:進入到App Inventor 2後，點擊左上角新建專案，
+                       在新增完專案後，我們畫面右上方會在外觀編排的位子，
+                       我們可以在這畫面中設計手機的操作介面，
+                       之後點選右上方的程式設計，我們會來到設計藍牙程式的頁面，
+                       左邊的區塊，裡面都已經有分段好的程式碼，我們可以把他們用拼圖式的方法寫出藍牙程式
+                       。
+
+3.Arduino Software的操作:進入Arduino Software後，開啟Arduino 的IDE介面，再來連接Arduino的UNO版，
+                         設定Port，連接時請確認是否有驅動成功，並且記住Port的名稱，
+                         在編譯器介面時選擇： Tools→Serial Port→選擇剛剛驅動完成的Port，
+                         這樣環境就設定完成，可以開始撰寫程式碼了。
